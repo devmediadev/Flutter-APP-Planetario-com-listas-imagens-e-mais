@@ -1,5 +1,3 @@
-import 'dart:core';
-
 import 'package:solar_system/models/planet.dart';
 import 'package:solar_system/planets_mock.dart';
 
@@ -18,6 +16,6 @@ class PlanetService {
   }
 
   double distanceFromPlanets(Planet planetA, Planet planetB) {
-    return (planetA.distance - planetB.distance)?.abs();
+    return (planetA.distanceFromTheSun - planetB.distanceFromTheSun)?.abs();
   }
 }

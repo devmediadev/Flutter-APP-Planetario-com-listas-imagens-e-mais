@@ -3,7 +3,7 @@ import 'package:solar_system/models/planet.dart';
 final List<Planet> solarSystem = [
   Planet(
     name: 'Mercúrio',
-    distance: 0.4,
+    distanceFromTheSun: 0.4,
     urlImage:
         'http://arquivo.devmedia.com.br/naoexclusivo/CaioRolla/sala-flutter/planetas/02.jpg',
     desc:
@@ -11,49 +11,49 @@ final List<Planet> solarSystem = [
   ),
   Planet(
     name: 'Vênus',
-    distance: 0.7,
+    distanceFromTheSun: 0.7,
     urlImage:
         'http://arquivo.devmedia.com.br/naoexclusivo/CaioRolla/sala-flutter/planetas/03.jpg',
         desc: 'Vénus ou Vênus é o segundo planeta do Sistema Solar em ordem de distância a partir do Sol, orbitando-o a cada 224,7 dias. Recebeu seu nome em homenagem à deusa romana do amor e da beleza Vénus, equivalente a Afrodite. ',
   ),
   Planet(
     name: 'Terra',
-    distance: 1.0,
+    distanceFromTheSun: 1.0,
     urlImage:
         'http://arquivo.devmedia.com.br/naoexclusivo/CaioRolla/sala-flutter/planetas/04.jpg',
         desc: 'A Terra é o terceiro planeta mais próximo do Sol, o mais denso e o quinto maior dos oito planetas do Sistema Solar. É também o maior dos quatro planetas telúricos. É por vezes designada como Mundo ou Planeta Azul. Lar de milhões de espécies de seres vivos,[13] incluindo os humanos, a Terra é o único corpo celeste onde é conhecida a existência de vida.',
   ),
   Planet(
     name: 'Marte',
-    distance: 1.5,
+    distanceFromTheSun: 1.5,
     urlImage:
         'http://arquivo.devmedia.com.br/naoexclusivo/CaioRolla/sala-flutter/planetas/05.jpg',
         desc: 'Marte é o quarto planeta a partir do Sol, o segundo menor do Sistema Solar. Batizado em homenagem ao deus romano da guerra, muitas vezes é descrito como o "Planeta Vermelho", porque o óxido de ferro predominante em sua superfície lhe dá uma aparência avermelhada.',
   ),
   Planet(
     name: 'Júpiter',
-    distance: 5.2,
+    distanceFromTheSun: 5.2,
     urlImage:
         'http://arquivo.devmedia.com.br/naoexclusivo/CaioRolla/sala-flutter/planetas/07.jpg',
         desc: 'Júpiter é o maior planeta do Sistema Solar, tanto em diâmetro quanto em massa, e é o quinto mais próximo do Sol. Possui menos de um milésimo da massa solar, contudo tem 2,5 vezes a massa de todos os outros planetas em conjunto. É um planeta gasoso, junto com Saturno, Urano e Netuno.',
   ),
   Planet(
     name: 'Saturno',
-    distance: 9.5,
+    distanceFromTheSun: 9.5,
     urlImage:
         'http://arquivo.devmedia.com.br/naoexclusivo/CaioRolla/sala-flutter/planetas/06.jpg',
         desc: 'Saturno é o sexto planeta a partir do Sol e o segundo maior do Sistema Solar atrás de Júpiter. Pertencente ao grupo dos gigantes gasosos, possui cerca de 95 massas terrestres e orbita a uma distância média de 9,5 unidades astronômicas.',
   ),
   Planet(
     name: 'Urano',
-    distance: 19.2,
+    distanceFromTheSun: 19.2,
     urlImage:
         'http://arquivo.devmedia.com.br/naoexclusivo/CaioRolla/sala-flutter/planetas/08.jpg',
         desc: 'Urano é o sétimo planeta a partir do Sol, o terceiro maior e o quarto mais massivo dos oito planetas do Sistema Solar. Foi nomeado em homenagem ao deus grego do céu, Urano, o pai de Cronos e o avô de Zeus.',
   ),
   Planet(
     name: 'Netuno',
-    distance: 30.2,
+    distanceFromTheSun: 30.2,
     urlImage:
         'http://arquivo.devmedia.com.br/naoexclusivo/CaioRolla/sala-flutter/planetas/09.jpg',
         desc: 'Netuno ou Neptuno é o oitavo planeta do Sistema Solar, o último a partir do Sol desde a reclassificação de Plutão para a categoria de planeta anão, em 2006. Pertencente ao grupo dos gigantes gasosos, possui um tamanho ligeiramente menor que o de Urano, mas maior massa, equivalente a 17 massas terrestres. ',

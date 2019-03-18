@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'package:solar_system/pages/single/single_page.dart';
 import 'package:solar_system/services/planet_service.dart';
 import 'package:solar_system/widgets/planet_list_tile.dart';
@@ -16,9 +17,8 @@ class HomePage extends StatelessWidget {
       body: ListView(
         children: planetService.planets.map((planet) {
           return PlanetListTile(
-            imageHeroTag: planet.name,
             planet: planet,
-            subtitle: Text("${planet.distance} AU from the sun."),
+            subtitle: Text("${planet.distanceFromTheSun} AU do sol."),
             onTap: () {
               Navigator.of(context).push(
                 MaterialPageRoute(
