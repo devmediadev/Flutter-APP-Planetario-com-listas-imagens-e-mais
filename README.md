@@ -1,17 +1,34 @@
-# solar_system
+# Planetário: aplicativo Flutter com listas, imagens e mais
 
-A new Flutter project.
+Nesse projeto temos uma aplicação simples construída utilizando o Framework Flutter para desenvolvimento multiplataforma. Utilizando dados em memória de planetas, o aplicativo realiza a listagem de cada um desses planetas e, ao clicado, direciona o usuário para a página de detalhes.
 
-## Getting Started
+## Destaques do projeto
 
-This project is a starting point for a Flutter application.
+Flutter
+Dart
 
-A few resources to get you started if this is your first Flutter project:
+## Clonando o projeto a partir do GitHub
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+Para clonar o repositório deste projeto a partir do GitHub você precisa ter o GIT instalado em seu computador.
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
-"# planet-media-flutter" 
+Caso você esteja em um ambiente Windows, vá até a página https://git-scm.com/download/win, faça o download do instalador do GIT e prossiga com a instalação.
+
+Após isso, abra o prompt de comandos para executar o seguinte:
+
+```git clone https://github.com/CaioRolla-Devmedia/planet-media-flutter.git```
+
+## Executando o projeto
+
+Com os arquivos do repositório clonados, navegue até o diretório do projeto com o seguinte comando:
+
+```cd planet-media-flutter```
+
+Utilizando o Flutter CLI, ferramenta instalada juntamente com o Flutter SDK, execute o seguinte comando para instalar todas as dependências do aplicativo:
+
+```flutter packages get```
+
+Para executar o projeto, seja no emulador ou em um dispositivo físico (conectado pelo USB) basta executar o seguinte comando:
+
+```flutter run```
+
+Se você ainda não possui o Flutter SDK instalado em sua máquina, basta seguir o passo a passo que deixamos no artigo Hello World com Flutter.
