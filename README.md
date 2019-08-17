@@ -2,6 +2,10 @@
 
 Nesse projeto temos uma aplicação simples construída utilizando o Framework Flutter para desenvolvimento multiplataforma. Utilizando dados em memória de planetas, o aplicativo realiza a listagem de cada um desses planetas e, ao clicado, direciona o usuário para a página de detalhes.
 
+Aprenda como criar esse projeto acessando esse link:
+
+https://www.devmedia.com.br/exemplo/planetario-aplicativo-flutter-com-listas-imagens-e-mais/100
+
 ## Destaques do projeto
 
 Flutter
